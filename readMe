@@ -1,0 +1,6 @@
+docker-compose up --build
+docker exec -it golang_app bash
+go run main.go
+
+# Local
+docker exec -it golang_app bash -c "go run main.go"
